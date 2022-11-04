@@ -44,8 +44,8 @@ body {
   background-color: #25313d;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 3rem 10rem 3rem 3rem;
+  justify-content: space-around;
+  padding: 10rem 10rem 3rem 3rem;
 }
 
 .separator-bar {
@@ -119,6 +119,10 @@ input {
   border-radius: 5px;
   margin-top: .25rem;
   padding-left:.5rem;
+}
+
+input:focus {
+  outline: 2px solid red;
 }
 
 button {
